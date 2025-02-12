@@ -132,12 +132,19 @@ a {
   margin-top: 100px;
   background-color: #ffc155;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .orange-1 img {
   width: 100%;
+  flex: 1;
 }
 .text-1 {
   color: whitesmoke;
+  flex: 1;
+  padding: 0 20px;
 }
 .text-1 h1 {
   background-color: #ffc155;
@@ -473,7 +480,7 @@ a {
 }
 .gemoroi {
   text-align: center;
-  background-image: url(./img/map.png);
+  background-image: url(../img/map.png);
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 139px;
